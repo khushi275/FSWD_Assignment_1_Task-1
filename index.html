@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-pink-50 text-gray-800">
+
+    <!-- Navbar -->
+    <nav class="bg-white fixed w-full top-0 shadow-md py-4 z-10">
+        <div class="max-w-6xl mx-auto flex justify-between items-center px-6">
+            <h1 class="text-xl font-bold text-purple-500">My Portfolio</h1>
+            <ul class="flex space-x-6 text-gray-700">
+                <li><a href="#about" class="hover:text-purple-500 transition">About</a></li>
+                <li><a href="#projects" class="hover:text-purple-500 transition">Projects</a></li>
+                <li><a href="#skills" class="hover:text-purple-500 transition">Skills</a></li>
+                <li><a href="#contact" class="hover:text-purple-500 transition">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+        class="text-center py-32 bg-gradient-to-r from-pink-200 to-blue-200 text-gray-800 mt-16 rounded-b-3xl shadow-lg">
+        <h2 class="text-5xl font-bold">Hello, I'm Khushi Patel</h2>
+        <p class="mt-4 text-lg">A Computer Engineering Student & Web Developer</p>
+        <a href="#projects"
+            class="mt-6 inline-block bg-white text-purple-500 px-6 py-3 rounded-full font-semibold shadow-md hover:bg-purple-100 transition">
+            View My Work
+        </a>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="max-w-4xl mx-auto py-16 px-6">
+        <h2 class="text-3xl font-semibold text-center text-gray-800">About Me</h2>
+        <p class="mt-6 text-lg text-center leading-relaxed text-gray-700">
+            Hi! I'm <span class="font-bold text-purple-500">Khushi Patel</span>, a passionate Computer Engineering
+            student and aspiring Web Developer.
+            I specialize in building responsive and interactive web applications.
+        </p>
+
+        <div class="mt-10 grid md:grid-cols-2 gap-6">
+            <div class="bg-white p-6 rounded-lg shadow-lg border-l-4 border-blue-300">
+                <h3 class="text-xl font-semibold text-purple-500">📖 Education</h3>
+                <p class="mt-2 text-gray-700">Currently pursuing Computer Engineering at Silver Oak University.
+                    Strong foundation in Data Structures, Web Development, and Software Engineering.</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-lg border-l-4 border-green-300">
+                <h3 class="text-xl font-semibold text-purple-500">💼 Experience</h3>
+                <p class="mt-2 text-gray-700">I have worked on multiple projects, specializing in:</p>
+                <ul class="list-disc pl-5 mt-2 text-gray-700">
+                    <li>Responsive Web Development using Tailwind & React.js</li>
+                    <li>Building interactive UI/UX components</li>
+                    <li>Competitive Problem Solving</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="max-w-6xl mx-auto py-16 px-6">
+        <h2 class="text-3xl font-semibold text-center text-gray-800">Projects</h2>
+        <div class="grid md:grid-cols-2 gap-8 mt-10">
+            <div class="bg-white p-6 rounded-lg shadow-lg border-t-4 border-pink-300">
+                <h3 class="text-xl font-semibold text-purple-500">Responsive Landing Page</h3>
+                <p class="mt-2 text-gray-700">This project is a fully responsive landing page designed to adjust across
+                    all screen sizes. It features a modern, clean layout with smooth animations and user-friendly
+                    navigation.</p>
+                <a href="https://github.com/khushi275/PRODIGY_WD_01" class="text-purple-500 mt-4 block">View Project on
+                    GitHub</a>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg border-t-4 border-blue-300">
+                <h3 class="text-xl font-semibold text-purple-500">Spotwatch Web Application</h3>
+                <p class="mt-2 text-gray-700">A web application built to track Spotify music listening habits. It allows
+                    users to view their most-played tracks and playlists using the Spotify API.</p>
+                <a href="https://github.com/khushi275/PRODIGY_WD_02" class="text-purple-500 mt-4 block">View Project on
+                    GitHub</a>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg border-t-4 border-green-300">
+                <h3 class="text-xl font-semibold text-purple-500">Tic Tac Toe Web Application</h3>
+                <p class="mt-2 text-gray-700">A simple yet interactive Tic Tac Toe game, designed with JavaScript and
+                    CSS. Play against a friend or the computer!</p>
+                <a href="https://github.com/khushi275/PRODIGY_WD_03" class="text-purple-500 mt-4 block">View Project on
+                    GitHub</a>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg border-t-4 border-yellow-300">
+                <h3 class="text-xl font-semibold text-purple-500">Responsive Dashboard</h3>
+                <p class="mt-2 text-gray-700">A responsive and modern dashboard built with HTML & Tailwind CSS,
+                    featuring a sidebar navigation, key metrics, recent activity table, and a clean UI optimized for all
+                    devices.</p>
+                <a href="https://github.com/khushi275/FSWD_Assignment_1_Task-2" class="text-purple-500 mt-4 block">View Project on GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="max-w-4xl mx-auto py-16 px-6">
+        <h2 class="text-3xl font-semibold text-center text-gray-800">Skills</h2>
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mt-6 text-center">
+            <span class="bg-pink-200 text-gray-900 px-4 py-2 rounded-lg">HTML</span>
+            <span class="bg-blue-200 text-gray-900 px-4 py-2 rounded-lg">CSS</span>
+            <span class="bg-green-200 text-gray-900 px-4 py-2 rounded-lg">JavaScript</span>
+            <span class="bg-purple-200 text-gray-900 px-4 py-2 rounded-lg">Tailwind CSS</span>
+            <span class="bg-pink-300 text-gray-900 px-4 py-2 rounded-lg">React.js</span>
+            <span class="bg-yellow-200 text-gray-900 px-4 py-2 rounded-lg">C++</span>
+            <span class="bg-blue-300 text-gray-900 px-4 py-2 rounded-lg">Python</span>
+            <span class="bg-gray-300 text-gray-900 px-4 py-2 rounded-lg">Git & GitHub</span>
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="max-w-4xl mx-auto py-16 px-6">
+        <h2 class="text-3xl font-semibold text-center text-gray-800">Contact Me</h2>
+        <form class="mt-6 bg-white p-6 rounded-lg shadow-lg">
+            <label class="block text-gray-700">Name:</label>
+            <input type="text" class="w-full p-2 border rounded-md mt-1">
+
+            <label class="block mt-4 text-gray-700">Email:</label>
+            <input type="email" class="w-full p-2 border rounded-md mt-1">
+
+            <label class="block mt-4 text-gray-700">Message:</label>
+            <textarea class="w-full p-2 border rounded-md mt-1" rows="4"></textarea>
+
+            <button class="mt-4 bg-purple-300 text-white px-6 py-2 rounded-lg hover:bg-purple-400 transition">
+                Send
+            </button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-6 bg-blue-200 text-gray-900 mt-10">
+        <p>© 2025 Khushi Patel. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
